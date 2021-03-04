@@ -6,7 +6,7 @@ class Blue extends Component {
   }
   render() {
     return (
-      <div cclassName="Buttons-content">
+      <div className="Buttons-content">
         <button className="Buttons-Blue">
           <h1 className="Content">Apply Blue</h1>
         </button>

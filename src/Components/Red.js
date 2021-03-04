@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
 class Red extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     this.state = {
-      color: "green",
+      color: "red",
     };
   }
 
