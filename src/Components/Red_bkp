@@ -4,13 +4,9 @@ class Red extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      color: "red",
+      activeColor: "red",
     };
   }
-
-  changeColor = () => {
-    this.setState({ color: "green" });
-  };
 
   render() {
     return (
@@ -18,7 +14,7 @@ class Red extends Component {
         <button
           className="Buttons-Red"
           type="button"
-          onClick={this.changeColor}
+          onClick={() => this.setState({ activeColor: "red" })}
         >
           <h1 className="Content">Apply Red</h1>
         </button>

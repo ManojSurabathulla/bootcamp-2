@@ -1,49 +1,20 @@
-#main {
+h1,
+p {
+  font-family: Lato;
+}
+.leftArea {
+  background-color: white;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.main-content {
-  margin-left: 30px;
-}
-.App-Content {
-  padding: 100px;
-  margin-left: 130px;
-}
-.App {
-  border: 1px solid #dddddde7;
-  height: 450px;
-  width: 450px;
-  text-align: center;
-  background-color: #ebe9e9;
-}
-.BlankBox-Content {
-  border: 1px solid #dddddde7;
-  height: 450px;
-  width: 450px;
-  text-align: center;
-  background-color: #ebe9e9;
-  margin-left: 130px;
-}
-.Buttons-content {
-  margin-top: 150px;
-  padding: 15px;
-}
-.Buttons-Blue {
-  height: 45px;
-  width: 350px;
-  background-color: blue;
-  color: #ffffff;
-}
-.Buttons-Red {
-  background-color: red;
-  height: 45px;
-  width: 350px;
+button {
+  width: 70%;
+  margin-bottom: 10px;
 }
 
-.Content {
-  margin: 5px;
-  font-size: 15px;
-  font-weight: bold;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+.container {
+  display: flex;
+  box-sizing: border-box;
 }

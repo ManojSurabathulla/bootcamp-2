@@ -1,13 +1,19 @@
 import React, { Component } from "react";
 
 class Blue extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
+    this.state = {
+      activeColor: "red",
+    };
   }
   render() {
     return (
       <div className="Buttons-content">
-        <button className="Buttons-Blue">
+        <button
+          className="Buttons-Blue"
+          onClick={() => this.setState({ activeColor: "Blue" })}
+        >
           <h1 className="Content">Apply Blue</h1>
         </button>
       </div>
